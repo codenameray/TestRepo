@@ -1,0 +1,60 @@
+/*Cascading Style Sheets*/
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: midnightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 720px;
+    /* background-image: url("images\Michael Corleone The Godfather.png"); */
+    padding: 32px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: 30px;
+}
+
+h2 {
+color: gold;
+font-size: 45px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+p {
+    color: pink;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+/* .imagebox {
+    border-radius: 99%;
+    height: 120px;
+    width: 180px;
+
+} */
+
+img {
+    height: 275px;
+    width: inherit;
+    border-radius: 15%;
+}
+
+a {
+    color: orangered;
+    margin: 8px;
+}
